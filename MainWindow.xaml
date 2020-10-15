@@ -4,7 +4,7 @@
                              xmlns:local="clr-namespace:DataGrid_Themes"
                              xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
 							 xmlns:syncfusionskin ="clr-namespace:Syncfusion.SfSkinManager;assembly=Syncfusion.SfSkinManager.WPF"
-							 syncfusionskin:SfSkinManager.VisualStyle="MaterialDark"
+							 syncfusionskin:SfSkinManager.Theme="{syncfusionskin:SkinManagerExtension ThemeName=MaterialDark}"
                              Icon="App.ico"
                              Title="Getting Started"
                              WindowStartupLocation="CenterScreen">
