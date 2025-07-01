@@ -7,6 +7,7 @@
 #endregion
 using Syncfusion.Windows.Shared;
 using System;
+using Syncfusion.SfSkinManager;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,11 +26,12 @@ namespace DataGrid_Themes
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : ChromelessWindow
+    public partial class MainWindow : Window
     {
         public MainWindow()
         {
-            InitializeComponent();            
-        }        
+            SfSkinManager.ApplyThemeAsDefaultStyle=true;
+            InitializeComponent();
+        }
     }
 }
