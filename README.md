@@ -1,12 +1,10 @@
 # How to apply theme using WPF SkinManager?
 
-This sample loads [Datagrid](https://help.syncfusion.com/wpf/datagrid/getting-started) and Window and applies Windows11Light theme.
-
-![Datagrid with skinmanager theme](Images/Output.png)
-
-## Overview
+This sample loads [Datagrid](https://help.syncfusion.com/wpf/datagrid/getting-started) and Window and applies Windows11Light theme using SfSkinManager.
 
 The WPF SkinManager is a comprehensive theming solution that enables developers to apply modern, professional themes to their Windows Presentation Foundation applications with minimal effort. This sample demonstrates the seamless integration of the Windows11Light theme across multiple controls.
+
+![Datagrid with skinmanager theme](Images/Output.png)
 
 ## What is Windows11Light Theme?
 
